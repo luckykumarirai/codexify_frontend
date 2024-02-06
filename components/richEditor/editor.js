@@ -175,7 +175,7 @@ function RichEditor() {
   };
 
   const handleAddTag = (tag) => {
-    const findTag = tags.includes(tag);
+    const findTag = tags?.includes(tag);
     console.log(findTag);
     if (findTag) {
       setAddTag("");

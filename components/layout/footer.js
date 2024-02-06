@@ -12,7 +12,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="hover:text-blue-800">
                 <a href="#" className="flex items-center">
-                  <Image src="/logo.png" alt="Logo" width="30" height="30" />
+                  <Image src="/logo.png" alt="Logo" width="80" height="80" />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap">
                     Codex
                   </span>

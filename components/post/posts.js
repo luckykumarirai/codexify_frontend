@@ -142,7 +142,10 @@ export default function Posts() {
     <>
       {data ? (
         <>
-          <Title title={data[0].title} description="Codex|Blogs|Learn & Grow" />
+          <Title
+            title={data[0]?.title}
+            description="Codex|Blogs|Learn & Grow"
+          />
           <div className="flex justify-start lg:justify-end space-x-3 mb-1">
             <button
               type="button"
